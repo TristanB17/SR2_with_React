@@ -39,10 +39,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'faraday'
 gem 'webpacker', '~> 3.2'
+gem 'react-rails'
 
 
 group :development, :test do
   gem 'capybara', '~> 2.13'
+  gem 'rb-readline'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'launchy'
